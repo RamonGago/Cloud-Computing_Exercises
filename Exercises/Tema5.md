@@ -44,7 +44,7 @@ Y tras proceder con una segunda ejecución para ver los nuevos resultados, se ha
 
 Para comparar el tamaño de las imágenes se ha procedido a la descarga y comprobación del tamaño de varias imágenes como se puede comprobar a continuación:
 
-![alt text](/Exercises/images/tema5/Ejercicio5.png "Ejercicio 5)
+![alt text](/Exercises/images/tema5/Ejercicio5.png "Ejercicio 5")
 
 # Ejercicio 6º
 ## Comparar el tamaño de las imágenes de diferentes sistemas operativos base, Fedora, CentOS y Alpine, por ejemplo.
@@ -57,7 +57,7 @@ Ya con este id podremos realizar cambios en la imagen y guardarlos con commit a 
 
 Para observar sus resultados basta con ejecutar `sudo docker images`:
 
-![alt text](/Exercises/images/tema5/Ejercicio6.png "Ejercicio 6)
+![alt text](/Exercises/images/tema5/Ejercicio6.png "Ejercicio 6")
 
 
 # Ejercicio 7º
@@ -78,7 +78,7 @@ Por otro lado, en el caso concreto de esta máquina, no existe el directo /aufs,
 
 Para utilizar un volumen en docker, primeramente ha de crearse a través del siguiente comando `sudo docker volume create <nombre volumen>`, tras su creación se realiza un pull de la imagen a utilzar `sudo docker pull fedora` y por último se crea un microservicio que devuelva por ejemplo el número de ficheros `sudo docker run -it --rm -v benchmark:/app fedora /bin/bash` y dentro del bash `ls -R / | wc`. Con ello se consigue ejecutar un microprograma de tal forma que este puede ser ejecutado independientemente en el SO que se prefiera, tal y como se muestra en la imagen:
 
-![alt text](/Exercises/images/tema5/Ejercicio8.png "Ejercicio 8)
+![alt text](/Exercises/images/tema5/Ejercicio8.png "Ejercicio 8")
 
 # Ejercicio 9º
 ## Usar un miniframework REST para crear un servicio web y introducirlo en un contenedor, y componerlo con un cliente REST que sea el que finalmente se ejecuta y sirve como “frontend”.
